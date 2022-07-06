@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello From React</h1>
-      <Header></Header>
+      <Header title={"Tasks Tracker"}></Header>
     </div>
   );
 }
