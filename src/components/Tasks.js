@@ -1,4 +1,5 @@
 import React from "react";
+import Task from "./Task";
 
 const tasks = [
   {
@@ -25,7 +26,8 @@ const Tasks = () => {
     <div>
       <ul>
         {tasks.map((task) => {
-          return <li key={task.id}>{task.text}</li>;
+          // return <li key={task.id}>{task.text}</li>;
+          return <Task key={task.id} task={task} />;
         })}
       </ul>
     </div>
